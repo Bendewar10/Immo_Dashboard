@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/monthly-report",
+      "schedule": "0 17 * * *"
+    },
+    {
+      "path": "/api/cron/enrich-photos",
+      "schedule": "0 4 * * *"
+    },
+    {
+      "path": "/api/cron/job-change-radar",
+      "schedule": "0 5 * * *"
+    }
+  ]
+}
